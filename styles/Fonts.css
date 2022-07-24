@@ -1,0 +1,63 @@
+@font-face {
+  font-family: 'LeferiPoint-BlackObliqueA';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/LeferiPoint-BlackObliqueA.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'LeferiPoint-BlackA';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/LeferiPoint-BlackA.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'LeferiBaseType-BoldA';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/LeferiBaseType-BoldA.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'LeferiBaseType-RegularA';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/LeferiBaseType-RegularA.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'LeferiPoint-WhiteA';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/LeferiPoint-WhiteA.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.font-leferi {
+font-family: 'LeferiBaseType-RegularA' !important;
+}
+.font-leferi-bold {
+font-family: 'LeferiBaseType-BoldA' !important;
+}
+.font-leferi-super {
+font-family: 'LeferiPoint-BlackObliqueA' !important;
+}
+.font-leferi-black {
+font-family: 'LeferiPoint-BlackA' !important;
+}
+.font-leferi-thin {
+font-family: 'LeferiPoint-WhiteA' !important;
+}
+
+html, body {
+  font-family: 'LeferiPoint-RegularA' !important;
+}
+h1, h2, h3, h4, h5, h6 {
+font-family: 'LeferiPoint-BlackA' !important;
+}
+
+#bg {
+  background: url('/underwater.jpg') !important;
+  background-size: cover !important;
+  width: 100vw !important;
+  height: 100vh !important;
+  background-repeat: no-repeat !important;
+  background-color: #2599cb !important;
+}
+
