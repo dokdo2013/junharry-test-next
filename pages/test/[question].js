@@ -99,7 +99,7 @@ const Test = () => {
 
     if (response.data.code === "SUCCESS") {
       setIsLoading(false);
-      router.push("/result");
+      router.push("/test/end");
     } else {
       toast({
         title: "실패",

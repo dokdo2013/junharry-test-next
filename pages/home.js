@@ -85,6 +85,7 @@ const Home = () => {
           localStorage.setItem("csrfToken", response.data.data.csrf_token);
           router.push("/test/1");
         } else {
+          console.log(response.data);
           alert(
             "해리배치고사를 시작할 수 없어요. 자세한 내용은 관리자에게 문의해주세요."
           );
