@@ -39,7 +39,7 @@ const Home = () => {
     const token = localStorage.getItem("token");
     if (token) {
       const response = await axios.get(
-        "http://api-v1.leaven.team/junharry-test/home",
+        "https://api-v1.leaven.team/junharry-test/home",
         {
           headers: {
             "X-Access-Token": token,
@@ -71,7 +71,7 @@ const Home = () => {
     // api 보내서 시작 체크
     axios
       .post(
-        "http://api-v1.leaven.team/junharry-test/start/1",
+        "https://api-v1.leaven.team/junharry-test/start/1",
         {},
         {
           headers: {
