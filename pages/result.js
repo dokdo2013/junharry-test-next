@@ -165,7 +165,7 @@ const Result = () => {
                           </Badge>
                         </Heading>
                         <Box my={2}>
-                          <Text>
+                          <Text className="font-leferi">
                             정답:{" "}
                             {
                               item.answers[0].find(
@@ -173,7 +173,7 @@ const Result = () => {
                               ).content
                             }
                           </Text>
-                          <Text>
+                          <Text className="font-leferi">
                             선택:{" "}
                             {
                               item.answers[0].find(
