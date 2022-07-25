@@ -45,7 +45,7 @@ const Test = () => {
     const token = localStorage.getItem("token");
     if (token) {
       const response = await axios.get(
-        "http://localhost:9091/junharry-test/home",
+        "http://api-v1.leaven.team/junharry-test/home",
         {
           headers: {
             "X-Access-Token": token,
@@ -64,7 +64,7 @@ const Test = () => {
     if (qid === -1) return;
     setIsLoading(true);
     const response = await axios.get(
-      `http://localhost:9091/junharry-test/question/1/${qid}`,
+      `http://api-v1.leaven.team/junharry-test/question/1/${qid}`,
       {
         headers: {
           "X-Access-Token": localStorage.getItem("token"),
@@ -87,7 +87,7 @@ const Test = () => {
     setIsLoading(true);
     await onSubmit(15, "next", true);
     const response = await axios.post(
-      "http://localhost:9091/junharry-test/end",
+      "http://api-v1.leaven.team/junharry-test/end",
       {},
       {
         headers: {
@@ -126,7 +126,7 @@ const Test = () => {
     }
     setIsLoading(true);
     const response = await axios.post(
-      `http://localhost:9091/junharry-test/submit/1/${qid}/${userAnswer}`,
+      `http://api-v1.leaven.team/junharry-test/submit/1/${qid}/${userAnswer}`,
       {},
       {
         headers: {

@@ -6,7 +6,7 @@ import { useEffect } from "react";
 import axios from "axios";
 
 export default function Callback() {
-  const apiUrl = "http://localhost:9091/junharry-test";
+  const apiUrl = "http://api-v1.leaven.team/junharry-test";
 
   useEffect(() => {
     const code = window.location.search.split("=")[1].split("&")[0];

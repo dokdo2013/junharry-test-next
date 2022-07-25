@@ -6,7 +6,7 @@ export default function Index() {
   const goTwitch = () => {
     const url = "https://id.twitch.tv/oauth2/authorize";
     const clientId = "7xz9p74u0tqjc8fdwmw51v9z9hqia7";
-    const redirectUri = "http://localhost:3000/callback";
+    const redirectUri = "https://test.junharry.com/callback";
     const responseType = "code";
     const scope = "user:read:follows+user:read:subscriptions+user:read:email";
     const state = "";
