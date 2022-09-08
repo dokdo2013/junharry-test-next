@@ -14,13 +14,13 @@
     "@sentry/nextjs": "7.12.1",
     "axios": "0.27.2",
     "framer-motion": "6.5.1",
-    "next": "12.2.5",
+    "next": "12.3.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-icons": "4.4.0"
   },
   "devDependencies": {
     "eslint": "8.23.0",
-    "eslint-config-next": "12.2.5"
+    "eslint-config-next": "12.3.0"
   }
 }
