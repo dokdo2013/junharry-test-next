@@ -17,9 +17,7 @@
 ## 기술 스택
 - FrontEnd
   - Next.js
-  - Vercel Deploy
 - BackEnd
   - FastAPI
-  - Jenkins Deploy
   - AWS RDS (MariaDB)
   - AWS ElastiCache (Redis)
