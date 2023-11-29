@@ -13,7 +13,7 @@
     "@emotion/styled": "11.11.0",
     "@sentry/nextjs": "7.83.0",
     "axios": "1.6.2",
-    "framer-motion": "10.16.5",
+    "framer-motion": "10.16.7",
     "next": "12.3.4",
     "react": "18.2.0",
     "react-dom": "18.2.0",
